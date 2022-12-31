@@ -1,0 +1,125 @@
+.myAnimation
+{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    position: absolute;
+/* Whenever we use postion property it will only use the follwing set
+    left ,top [left , bottom]
+    [right, top] [right , bottom]
+*/
+    /* animation properties */
+    animation-name: thirty;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+}
+@keyframes thirty
+{
+    from{
+        /* background-color: aqua; */
+        background-image: url('../images/coffee.jpg');
+        transform: rotate(30deg);
+    }
+    to{
+        /* background-color: black; */
+        background-image: url('../images/tea.webp');
+        transform: rotate(180deg);
+    }
+}
+/* New Animation */
+.newani{
+    height: 200px;
+    width: 200px;
+    background-image: url('../images/coffee.jpg');
+    /* border-radius: 50%; */
+    position: absolute;
+
+    animation-name: circle2;
+    animation-duration: 5s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+@keyframes circle2
+{
+    0%
+    {
+        top: 0;
+        left: 0;
+    }
+    25%
+    {
+        left: 400px;
+        top: 0;
+       
+    }
+    50%
+    {
+        left: 400px;
+        top: 400px;
+       
+    }
+    75%
+    {
+        top: 400px;
+        left: 0;
+       
+    }
+    100%
+    {
+        top: 0;
+        left: 0;
+    }
+}
+
+.newani2{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+
+    animation-name: circle3;
+    animation-duration: 6s;
+    animation-delay: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+@keyframes circle3
+{
+    0%
+    {
+        top: 0;
+        left: 0;
+    }
+    25%
+    {
+        left: 400px;
+        top: 0;
+        background-color: aqua;
+    }
+    50%
+    {
+        left: 400px;
+        top: 400px;
+        background-color: yellowgreen;
+    }
+    75%
+    {
+        top: 400px;
+        left: 0;
+        background-color: tomato;
+    }
+    100%
+    {
+        top: 0;
+        left: 0;
+    }
+}

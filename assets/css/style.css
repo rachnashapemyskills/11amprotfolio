@@ -1,0 +1,51 @@
+ .div1
+{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.div2
+{
+    height: 200px;
+    width: 200px;
+    background-color: navy;
+    color: white;
+    /* padding-left: 50px; */
+    padding: 50px;
+    /* padding-right: 0; */
+    margin-top: 30px;
+    border-radius: 50%;
+    text-align: center;
+}
+.d1{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border-radius: 50%;
+    margin: auto;
+}
+h1
+{
+    background-color: pink;
+    text-align: center;
+} 
+.gradient1{
+    height: 200px;
+    width: 200px;
+    background-image: linear-gradient(red,blue,yellow);
+}
+.gradient2{
+    margin-top: 20px;
+    height: 200px;
+    width: 200px;
+ 
+    border-radius: 50%;
+    /* background-image: linear-gradient(to right,red,blue,yellow);
+     */
+
+     background-image: radial-gradient(deeppink, darkblue, darkcyan, darkred);
+}
+

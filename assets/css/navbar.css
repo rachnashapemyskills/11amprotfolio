@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+}
+
+header{
+    /* background-color: black; */
+    height: 40px;
+}
+.flex-container{
+    display: flex;
+}
+.left-header
+{
+    background-color: cyan;
+    flex:50%;
+}
+.right-header{
+    background-color: bisque;
+    flex: 50%;
+}
+header ul {
+    list-style-type: none;
+}
+header ul li {
+    display: inline;
+    margin: 40px;
+}
+header ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+/* CSS for Navigation */
+nav {
+    /* height: 100px; */
+    margin-top: 20px;
+    background-color: black;
+}
+
+.left-nav{
+    flex:20%;
+}
+.right-nav{
+    flex:80%;
+    
+}
+nav ul {
+    list-style-type: none;
+}
+nav ul li{
+    display: inline;
+    margin: 40px;
+}
+nav h1{
+    color: white;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.flex-item{
+    flex:20%
+}
+/* about section */
+.left-about{
+    flex: 40%;
+}
+.right-about{
+    flex:60%;
+}
+.n1{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    border-radius: 50%;
+    margin: 20px;
+    border: 2px dotted black;
+}
+.n1:nth-child(even)
+{
+    background-color: deeppink;
+}
+.n1:nth-child(1)
+{
+    background-image: url('../images/fb.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}

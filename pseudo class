@@ -1,0 +1,28 @@
+Pseudo Classes 
+1. :first-letter
+2. :first-line
+3. :first-child
+4. :last-child
+5. :nth-child(even | odd | number )
+6. :before
+7. :after 
+8. :focus 
+9. :placeholder 
+10. :hover
+________________________________________________________________________
+Margin : 
+    margin-left
+    margin-right
+    margin-top
+    margin-bottom
+shorthand property
+        margin: 10px;
+            It will apply margin to left top,right and bottom
+        margin: 10px   20px    10px     20px;
+                top    right  bottom  left
+        margin : 20px 40px;
+        20px: Top & bottom
+        40px : Left & right 
+
+Padding :  It will aplly space inside the box.
+
